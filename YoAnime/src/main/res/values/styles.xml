@@ -1,0 +1,248 @@
+<resources>
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+<!--
+        <item name="colorPrimary">@color/md_grey_500</item>
+        <item name="colorPrimaryDark">@color/md_grey_700</item>
+-->
+        <item name="colorAccent">@color/accent</item>
+
+
+
+            <!-- Customize your theme here. -->
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+
+
+
+
+    </style>
+    <!-- SHARED PREFERENCES: 1 -->
+    <style name="yo_red_theme_dark" parent="BaseTheme">
+
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/red</item>
+        <item name="android:windowBackground">@color/dark</item>
+
+    </style>
+    <!-- SHARED PREFERENCES: 2 -->
+    <style name="yo_red_theme_light" parent="BaseTheme">
+
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/red</item>
+
+    </style>
+    <!-- SHARED PREFERENCES: 3 -->
+    <style name="yo_deep_orange_theme_dark" parent="BaseTheme">
+
+        <item name="colorPrimary">@color/deep_orange</item>
+        <item name="colorPrimaryDark">@color/deep_orange</item>
+        <item name="android:windowBackground">@color/dark</item>
+
+    </style>
+    <!-- SHARED PREFERENCES: 4 -->
+    <style name="yo_deep_purple_theme_dark" parent="BaseTheme">
+
+        <item name="colorPrimary">@color/deep_purple</item>
+        <item name="colorPrimaryDark">@color/deep_purple</item>
+        <item name="android:windowBackground">@color/dark</item>
+
+
+    </style>
+    <!-- SHARED PREFERENCES: 5 -->
+    <style name="yo_green_theme_light" parent="BaseTheme">
+
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/green</item>
+
+    </style>
+    <!-- SHARED PREFERENCES: 6 -->
+    <style name="yo_green_theme_dark" parent="BaseTheme">
+
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/green</item>
+        <item name="android:windowBackground">@color/dark</item>
+
+
+    </style>
+
+    <style name="yo_purple_theme_dark" parent="BaseTheme">
+
+        <item name="colorPrimary">@color/purple</item>
+        <item name="colorPrimaryDark">@color/purple</item>
+        <item name="android:windowBackground">@color/dark</item>
+
+    </style>
+
+    <style name="yo_teal_theme_dark" parent="BaseTheme">
+
+        <item name="colorPrimary">@color/teal</item>
+        <item name="colorPrimaryDark">@color/teal</item>
+        <item name="android:windowBackground">@color/dark</item>
+
+    </style>
+
+
+    <style name="yo_brown_theme_dark" parent="BaseTheme">
+
+        <item name="colorPrimary">@color/brown</item>
+        <item name="colorPrimaryDark">@color/brown</item>
+        <item name="android:windowBackground">@color/dark</item>
+
+    </style>
+
+
+    <style name="yo_blue_grey_theme_dark" parent="BaseTheme">
+
+        <item name="colorPrimary">@color/blue_grey</item>
+        <item name="colorPrimaryDark">@color/blue_grey</item>
+        <item name="android:windowBackground">@color/dark</item>
+
+    </style>
+
+    <style name="yo_cyan_theme_dark" parent="BaseTheme">
+
+        <item name="colorPrimary">@color/cyan</item>
+        <item name="colorPrimaryDark">@color/cyan</item>
+        <item name="android:windowBackground">@color/dark</item>
+
+    </style>
+
+
+    <!-- SHARED PREFERENCES: 7 -->
+    <style name="yo_pink_theme_dark" parent="BaseTheme">
+
+        <item name="colorPrimary">@color/pink</item>
+        <item name="colorPrimaryDark">@color/pink</item>
+        <item name="android:windowBackground">@color/dark</item>
+
+    </style>
+    <!-- SHARED PREFERENCES: 8 -->
+    <style name="yo_orange_theme_dark" parent="BaseTheme">
+
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryDark">@color/orange</item>
+        <item name="android:windowBackground">@color/dark</item>
+
+    </style>
+    <!-- SHARED PREFERENCES: 9 -->
+    <style name="LightGreenTheme" parent="BaseTheme">
+
+        <item name="colorPrimary">@color/md_light_green_500</item>
+        <item name="colorPrimaryDark">@color/md_light_green_700</item>
+
+    </style>
+    <!-- SHARED PREFERENCES: 10 -->
+    <style name="LimeTheme" parent="BaseTheme">
+        <item name="colorPrimary">@color/md_lime_500</item>
+        <item name="colorPrimaryDark">@color/md_lime_700</item>
+
+    </style>
+    <!-- SHARED PREFERENCES: 11 -->
+    <style name="YellowTheme" parent="BaseTheme">
+        <item name="colorPrimary">@color/md_yellow_500</item>
+        <item name="colorPrimaryDark">@color/md_yellow_700</item>
+
+    </style>
+    <!-- SHARED PREFERENCES: 12 -->
+    <style name="OrangeTheme" parent="BaseTheme">
+
+        <item name="colorPrimary">@color/md_orange_500</item>
+        <item name="colorPrimaryDark">@color/md_orange_700</item>
+
+    </style>
+    <!-- SHARED PREFERENCES: 13 -->
+    <style name="DeepOrangeTheme" parent="BaseTheme">
+
+        <item name="colorPrimary">@color/md_deep_orange_500</item>
+        <item name="colorPrimaryDark">@color/md_deep_orange_800</item>
+
+    </style>
+    <!-- SHARED PREFERENCES: 14 -->
+    <style name="BrownTheme" parent="BaseTheme">
+
+        <item name="colorPrimary">@color/md_brown_500</item>
+        <item name="colorPrimaryDark">@color/md_brown_700</item>
+
+    </style>
+    <!-- SHARED PREFERENCES: 16 -->
+    <style name="BlueGreyTheme" parent="BaseTheme">
+
+        <item name="colorPrimary">@color/md_blue_grey_500</item>
+        <item name="colorPrimaryDark">@color/md_blue_grey_700</item>
+
+
+    </style>
+        <!-- SHARED PREFERENCES: 15 -->
+        <style name="yo_dark_Theme" parent="BaseTheme">
+
+            <item name="colorPrimary">@color/blue</item>
+            <item name="colorPrimaryDark">@color/blue</item>
+            <item name="android:windowBackground">@color/dark</item>
+
+
+
+        </style>
+
+
+    <!-- SHARED PREFERENCES: 0 -->
+    <style name="yolightTheme" parent="BaseTheme">
+
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+
+    </style>
+
+
+
+
+
+
+    <style name="hummingbird" parent="android:Theme.DeviceDefault.Light.NoActionBar">
+        <item name="colorAccent">@color/hummingbird</item>
+    </style>
+
+
+
+
+        <!-- Base application theme. -->
+        <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+            <!-- Customize your theme here. -->
+        </style>
+
+        <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+            <item name="android:windowBackground">@drawable/background_splash</item>
+        </style>
+
+
+    <style name="Theme.Splash" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+
+
+
+        <style name="FilePickerTheme" parent="NNF_BaseTheme.Light">
+
+            <item name="colorPrimary">@color/primary</item>
+            <item name="colorPrimaryDark">@color/primary_dark</item>
+            <item name="colorAccent">@color/accent</item>
+
+            <item name="alertDialogTheme">@style/FilePickerAlertDialogTheme</item>
+
+        </style>
+
+        <style name="FilePickerAlertDialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+
+            <item name="colorPrimary">@color/primary</item>
+            <item name="colorPrimaryDark">@color/primary_dark</item>
+            <item name="colorAccent">@color/accent</item>
+
+        </style>
+
+
+
+
+</resources>

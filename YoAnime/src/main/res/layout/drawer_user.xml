@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_user"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:background="?attr/colorPrimaryDark">
+
+    <ImageView
+        android:id="@+id/drawer_user_cover"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/drawer_cover"/>
+
+    <TextView
+        android:id="@+id/drawer_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/drawer_user_cover"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:textSize="14sp"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1.2"
+        android:shadowDy="1.2"
+        android:shadowRadius="1.2"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/user_selectable"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/drawer_user_name"
+        android:layout_marginLeft="17dp"
+        android:layout_marginBottom="5dp"
+        android:clickable="true"
+        android:tint="@color/primary_dark"
+        android:background="@drawable/back_bg"/>
+
+</RelativeLayout>

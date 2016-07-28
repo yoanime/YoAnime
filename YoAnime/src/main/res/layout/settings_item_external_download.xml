@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp" >
+
+    <CheckBox
+        android:id="@+id/preference_check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/preference_title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/preference_check_box"
+        android:textSize="16sp"
+        android:textColor="@color/dark"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:text="@string/external_download_preference_title" />
+
+    <TextView
+        android:id="@+id/preference_summary_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/preference_check_box"
+        android:layout_below="@id/preference_title_text"
+        android:textSize="13sp"
+        android:textColor="?attr/colorPrimaryDark" />
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/drawer_settings"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="@drawable/list_background"
+        android:layout_above="@+id/btn_play_again"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp" android:layout_marginStart="60dp"
+            android:layout_centerVertical="true"
+            android:text="@string/settings_item"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark"
+            android:alpha="0.80"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_settings"
+            android:layout_centerVertical="true"
+            android:tint="@color/primary_dark"
+            android:layout_marginLeft="20dp" android:layout_marginStart="16dp"
+            android:alpha="0.80"/>
+
+    </RelativeLayout>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/drawer_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/drawer_settings"/>
+
+    <View android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@drawable/horizontal_shadow_upsidedown_light"
+        android:id="@+id/view"
+        android:layout_above="@+id/btn_play_again"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="37dp" />
+
+    <RelativeLayout
+        android:id="@+id/btn_play_again"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="@drawable/list_background"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp" android:layout_marginStart="60dp"
+            android:layout_centerVertical="true"
+            android:text="@string/drawer_About"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark"
+            android:alpha="0.80"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/about"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp" android:layout_marginStart="16dp"
+            android:alpha="0.80"
+            android:tint="@color/primary_dark" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">YoAnime!</string>
+
+    <string name="settings_item">Settings</string>
+    <string name="search_item">Search Anime</string>
+    <string name="favourites_item">★ My Favorites ★</string>
+
+    <string name="imageContentDesc">Anime Cover</string>
+
+    <string name="update">UPDATE</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+
+
+
+
+
+    <string name="last_viewed_anime">Open last viewed Anime</string>
+
+
+    <string name="search_grid">yo</string>
+
+    <string name="drawer_About">About</string>
+
+
+    <string name="external_download_preference_title">External Download Link</string>
+    <string name="theme_preference_title">Theme</string>
+    <string name="theme_dialog_title">Choose Theme Color</string>
+
+    <string name="yo_dark_theme">Blue</string>
+    <string name="yo_light_theme">Blue Light BG</string>
+
+    <string name="yo_red_theme_dark">Red</string>
+
+    <string name="yo_red_theme_light">Red Light BG</string>
+    <string name="yo_orange_theme_dark">Orange</string>
+
+    <string name="yo_deep_orange_theme_dark">Deep Orange</string>
+    <string name="yo_deep_purple_theme_dark">Deep purple</string>
+
+    <string name="yo_green_theme_light">Green Light BG</string>
+    <string name="yo_green_theme_dark">Green</string>
+    <string name="yo_pink_theme_light">Pink Light BG</string>
+    <string name="yo_pink_theme_dark">Pink</string>
+    <string name="yo_purple_theme_dark">Purple</string>
+    <string name="yo_cyan_theme_dark">Cyan</string>
+    <string name="yo_teal_theme_dark">Teal</string>
+    <string name="yo_brown_theme_dark">Brown</string>
+    <string name="yo_blue_grey_theme_dark">Blue Grey</string>
+
+
+    <string name="update_title">There is an update available!</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="back">BACK</string>
+
+    <string name="slide_4_title">Thank you for using YoAnime!</string>
+    <string name="enjoy">Enjoy Watching!</string>
+    <string name="smiley">ー( ´ ▽ ` )ﾉ</string>
+
+
+    <string name="help">Help</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="sources">Select Video Quality</string>
+    <string name="quality">Quality</string>
+    <string name="stream">WATCH</string>
+    <string name="download">DOWNLOAD</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="status_title">Status:</string>
+    <string name="alternate_title_title">Alternate Title:</string>
+    <string name="date_title">Release Date:</string>
+
+    <string name="settings_tab">SETTINGS</string>
+    <string name="history_tab">HISTORY</string>
+
+
+    <string name="about_author">Developed by:</string>
+    <string name="about_username">★ Joel Manalo ★</string>
+    <string name="version">Version 1.2</string>
+
+    <string name="settings_licences">Open source license</string>
+    <string name="anime_provider">Anime provider:</string>
+
+    <string name="feedback">Contact Us</string>
+    <string name="feedback_summary">feedback@yoanime.com</string>
+
+    <string name="website">Website:</string>
+    <string name="yoanime_website">http://yoanime.github.io</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="my_add_unit">ca-app-pub-9292081432929230/4950635902</string>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="theme_entries">
+        <item>@string/yo_dark_theme</item>
+        <item>@string/yo_red_theme_dark</item>
+        <item>@string/yo_green_theme_dark</item>
+        <item>@string/yo_pink_theme_dark</item>
+        <item>@string/yo_orange_theme_dark</item>
+        <item>@string/yo_purple_theme_dark</item>
+        <item>@string/yo_cyan_theme_dark</item>
+        <item>@string/yo_teal_theme_dark</item>
+        <item>@string/yo_brown_theme_dark</item>
+        <item>@string/yo_blue_grey_theme_dark</item>
+        <item>@string/yo_deep_orange_theme_dark</item>
+        <item>@string/yo_deep_purple_theme_dark</item>
+    </string-array>
+
+    <string-array name="search_grid_options">
+        <!--  <item>@string/search_grid_option_poster</item>
+        <item>@string/search_grid_option_card</item>
+        -->
+    </string-array>
+</resources>

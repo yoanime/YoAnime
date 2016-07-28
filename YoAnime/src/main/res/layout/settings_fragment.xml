@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:orientation="vertical" >
+
+
+             <include layout="@layout/settings_theme"
+                  android:id="@+id/theme_preference_item" />
+
+
+            <include layout="@layout/settings_remember_last_anime"
+                android:id="@+id/last_viewed_anime"/>
+
+
+          <include layout="@layout/settings_item_external_download"
+                 android:id="@+id/external_download_item" />
+
+            <include layout="@layout/settings_feedback"
+                android:id="@+id/contact_preference_item" />
+
+
+            <include layout="@layout/settings_item_license"
+                  android:id="@+id/licences_preference_item" />
+
+
+           </LinearLayout>
+
+       </ScrollView>
+
+       <include layout="@layout/toolbar_shadow" />
+
+   </RelativeLayout>
